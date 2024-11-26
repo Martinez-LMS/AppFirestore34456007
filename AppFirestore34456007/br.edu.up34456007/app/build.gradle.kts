@@ -41,7 +41,7 @@ android {
 
 dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
-
+    implementation("com.google.firebase:firebase-analytics")
     // Firestore
     implementation("com.google.firebase:firebase-firestore-ktx")
 
@@ -69,6 +69,7 @@ dependencies {
     // Android architecture components
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation("com.google.firebase:firebase-dataconnect:16.0.0-beta03")
     annotationProcessor("androidx.lifecycle:lifecycle-compiler:2.8.7")
 
     // Third-party libraries
